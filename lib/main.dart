@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:instagramui/pages/search.dart';
 
 import 'pages/home.dart';
 
@@ -23,7 +24,7 @@ class MyApp extends StatelessWidget {
           body: TabBarView(
             children: [
               Home(),
-              Icon(Icons.directions_transit),
+              Search(),
               Icon(Icons.directions_bike),
               Icon(Icons.directions_transit),
               Icon(Icons.directions_bike),
