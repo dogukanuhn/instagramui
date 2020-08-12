@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:instagramui/pages/history.dart';
+import 'package:instagramui/pages/profile.dart';
 import 'package:instagramui/pages/search.dart';
 
 import 'pages/home.dart';
@@ -26,8 +28,8 @@ class MyApp extends StatelessWidget {
               Home(),
               Search(),
               Icon(Icons.directions_bike),
-              Icon(Icons.directions_transit),
-              Icon(Icons.directions_bike),
+              History(),
+              Profile(),
             ],
           ),
           bottomNavigationBar: BottomAppBar(
